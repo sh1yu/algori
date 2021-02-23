@@ -4,7 +4,6 @@ pub fn sort<T: PartialOrd>(data: Vec<T>) -> Vec<T> {
     return algorithm::bubbo_sort(data);
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::*;
